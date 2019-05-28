@@ -14,20 +14,20 @@ Now for program specific notes.
 
 ### i3
 
-    * The volume buttons might be different from computer-to-computer.
-    * Vim-based binding (as always).
-    * You will might need a program called `light` to modify brightness, if `xbacklight` does not work.
-    * The compositor `compton` is used for cool fades and transparency.
+* The volume buttons might be different from computer-to-computer.
+* Vim-based binding (as always).
+* You will might need a program called `light` to modify brightness, if `xbacklight` does not work.
+* The compositor `compton` is used for cool fades and transparency.
 
 ### nvim
 
-    * The deoplete plugins will require the python version of `nvim`, called `pynvim`. They are installed with the command `pip install`
-    * Powerline fonts will be needed for powerline
+* The deoplete plugins will require the python version of `nvim`, called `pynvim`. They are installed with the command `pip install`
+* Powerline fonts will be needed for powerline
 
 ### polybar
 
-    * You must compile polybar with the required package to have module support. Without them, the status bar will look messed up.
-        * Here is the command for to get all packages: `sudo apt install build-essential git cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev`
-    * You need 'Font Awesome' and "Material Icons" for icons
+* You must compile polybar with the required package to have module support. Without them, the status bar will look messed up.
+   * Here is the command for to get all packages: `sudo apt install build-essential git cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev`
+   * You need 'Font Awesome' and "Material Icons" for icons
 
 As stated before, this will be updated as I change my config.
