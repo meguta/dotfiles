@@ -6,7 +6,7 @@ These are my dotfiles for my Linux computer (now referred to as the 'crapbook').
 ## Notes
 Here are some things to keep in mind when using this (if you actually are)
 
-    * This probably won't work for every Distro/OS. This is to be expected. You will need to make some modifications.
+    - This probably won't work for every Distro/OS. This is to be expected. You will need to make some modifications.
     * You will most definitely need an internet connection for this.
     * The documentation of the config files will be updated as we go on, thus don't worry if you can't understand anything.
 
