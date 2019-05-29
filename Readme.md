@@ -22,7 +22,14 @@ Now for program specific notes.
 ### nvim
 
 * The deoplete plugins will require the python version of `nvim`, called `pynvim`. They are installed with the command `pip install`
+    * deoplete-clang will need the path to `libclang.so` and the path to `lib/clang`. `libclang` must be installed for this to work.
 * Powerline fonts will be needed for powerline
+
+### urxvt
+* Some fonts do not work this terminal.
+* Copy and paste with Alt+C & Alt+V
+    * Make sure that Alt is not conflicting with i3
+
 
 ### polybar
 
@@ -30,4 +37,11 @@ Now for program specific notes.
    * Here is the command for to get all packages: `sudo apt install build-essential git cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev`
    * You need 'Font Awesome' and "Material Icons" for icons
 
+### pywal
+
+* You must add `pip` to the path, or else you will not be able to use `wal`
+*   * `export PATH="${PATH}:${HOME}/.local/bin/"`
+
 As stated before, this will be updated as I change my config.
+
+
