@@ -35,12 +35,12 @@ pip3 install --user pynvim
 echo "Making Neovim directory in .config folder"
 read -p "[Press any key to continue...]"
 
-sudo mkdir .config/nvim
+sudo mkdir ~/.config/nvim -p
 
 echo "Moving the init.vim file into the .config folder"
 read -p "[Press any key to continue...]"
 
-sudo mv init.vim .config/nvim
+sudo mv config/nvim/init.vim ~/.config/nvim
 
 echo "Successfully installed and configured Neovim!"
 
